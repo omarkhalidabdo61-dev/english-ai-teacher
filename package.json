@@ -1,0 +1,15 @@
+{
+  "name": "english-ai-teacher-platform",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:api": "npm --workspace apps/api run dev",
+    "dev:mobile": "npm --workspace apps/mobile run start",
+    "build:web": "npm --workspace apps/web run build",
+    "start:api": "npm --workspace apps/api run start"
+  },
+  "packageManager": "npm@10.8.0"
+}

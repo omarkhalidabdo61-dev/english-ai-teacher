@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "EnglishAITeacher",
+    "slug": "english-ai-teacher",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
